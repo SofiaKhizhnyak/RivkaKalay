@@ -84,7 +84,7 @@ function Footer() {
       {/* Footer Credit */}
       <div className="flex items-start justify-center text-[#a491b4] mt-4 pt-2 gap-1">
         <p className="text-xs">אתר זה נבנה ע"י Sofia Khizhnyak</p>
-        <Link href="https://www.linkedin.com/in/sofiakhizhnyak/">
+        <Link href="https://www.linkedin.com/in/sofia-khiznyak/">
           <FaLinkedin
             size={15}
             className="hover:text-[#8f73a7] hover:scale-110"
