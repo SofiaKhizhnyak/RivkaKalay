@@ -29,7 +29,7 @@ function Logo() {
           style={{
             textShadow: "1px 1px 2px rgb(99, 97, 97)",
           }}
-          className={`text-[42px] md:text-[48px] text-[#20201f] ${windSong.className} -translate-x-7 translate-y-6`}
+          className={`text-[40px] md:text-[48px] text-[#20201f] ${windSong.className} -translate-x-7 translate-y-6`}
         >
           Rivka Kalay
         </p>

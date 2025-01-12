@@ -53,7 +53,7 @@ function Footer() {
 
             <div className="text-[10px] xs:text-sm text-slate-600 space-y-4">
               <Link
-                href="https://web.whatsapp.com/send?phone=972547310998"
+                href="https://wa.me/972547310998"
                 className="flex items-center gap-2"
                 target="_blank"
                 rel="noopener noreferrer"
