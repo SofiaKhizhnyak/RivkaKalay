@@ -65,6 +65,7 @@ function TreatmentsGallery() {
         "טיפול מתקדם להסרת קעקועים בלייזר באופן יעיל ומדויק, עם דגש על שמירה על בריאות העור.",
       image: "/images/treatments/tattoo-remove/1.png",
     },
+
   ];
 
   return (
