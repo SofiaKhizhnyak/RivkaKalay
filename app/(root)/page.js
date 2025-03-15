@@ -5,9 +5,15 @@ import TreatmentsGallery from "@/components/TreatmentsGallery";
 export default function Home() {
   return (
     <div>
-      <About />
-      <TreatmentsGallery />
-      <CustomerRecommend />
+      <section>
+        <About />
+      </section>
+      <section>
+        <TreatmentsGallery />
+      </section>
+      <section>
+        <CustomerRecommend />
+      </section>
     </div>
   );
 }

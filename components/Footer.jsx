@@ -12,7 +12,7 @@ const windSong = WindSong({
 
 function Footer() {
   return (
-    <footer className="bg-[#e2dde2b4] border-t px-6 py-4 " dir="rtl">
+    <footer className="bg-[#e2dde2b4] border-t px-6 pt-4 pb-2" dir="rtl">
       <div className="grid grid-cols-3 gap-6 md:px-2">
         <div className="col-span-2">
           <p
@@ -23,13 +23,13 @@ function Footer() {
           >
             Rivka Kalay
           </p>
-          <div className="text-[13px] text-gray-500 mt-2 leading-relaxed space-y-1">
-            <p>רבקה קליי, קוסמטיקאית פרא-רפואית עם מעל 15 שנות ניסיון.</p>
+          <div className="text-[13px] text-gray-500/90 mt-2 leading-relaxed space-y-1 font-gveret tracking-wider">
+            <p>רבקה, קוסמטיקאית בכירה עם מעל 15 שנות ניסיון.</p>
             <p>
               מתמחה בטיפולי אנטי-אייג'ינג, טיפולי פגמנטציה ופילינג, מזותרפיה,
               הלחמת ריסים, איפור קבוע ועוד.
             </p>
-            <p>
+            <p className="text-gray-500 ">
               שילוב של טכנולוגיות חדשניות עם שיטות טיפול ייחודיות לתוצאות
               מושלמות.
             </p>
@@ -37,7 +37,7 @@ function Footer() {
         </div>
 
         <div className="col-span-1 flex flex-col justify-center items-center mt-4">
-          <div className="text-sm text-slate-600 space-y-4">
+          <div className="text-sm text-slate-600 space-y-4 font-dana tracking-wider font-semibold">
             <Link
               href="https://www.facebook.com/profile.php?id=100021660900905"
               className="flex items-center gap-2"
@@ -82,11 +82,16 @@ function Footer() {
       </div>
 
       {/* Footer Credit */}
-      <div className="flex items-start justify-center text-[#a491b4] mt-4 pt-2 gap-1">
-        <p className="text-xs">אתר זה נבנה ע"י Sofia Khizhnyak</p>
+      <div className="flex items-start justify-center text-[#a491b4] mt-7 pt-2 gap-1 ">
+        <p className="text-[14px] ">
+          <span className="font-dana font-extrabold tracking-wider">
+            אתר זה נבנה ע"י
+          </span>{" "}
+          Sofia Khizhnyak
+        </p>
         <Link href="https://www.linkedin.com/in/sofiakhizhnyak/">
           <FaLinkedin
-            size={15}
+            size={18}
             className="hover:text-[#8f73a7] hover:scale-110"
           />
         </Link>

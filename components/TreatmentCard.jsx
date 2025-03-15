@@ -20,7 +20,9 @@ function TreatmentCard({ name, desc, img }) {
       <div className="p-2">
         <dl>
           <div>
-            <dd className="font-medium text-[#6e6a70]">{name}</dd>
+            <dd className="font-medium font-gveret tracking-wide text-[#6e6a70]">
+              {name}
+            </dd>
           </div>
         </dl>
 

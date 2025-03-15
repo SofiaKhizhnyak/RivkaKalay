@@ -68,12 +68,12 @@ function TreatmentsGallery() {
   ];
 
   return (
-    <div className="pb-5">
+    <div className="p-5 flex flex-col items-center justify-around">
       <div className="flex flex-col items-center justify-center">
         <h1 className="sm:text-[72px] text-[62px] font-extrabold text-[#f1da9b6b]  tracking-wider">
           הטיפולים שלנו
         </h1>
-        <h1 className="font-extrabold text-5xl text-[#81817fb9] tracking-wider opacity-80 -translate-y-14">
+        <h1 className="font-gveret text-5xl text-[#81817fb9] tracking-wider opacity-80 -translate-y-14">
           הטיפולים שלנו
         </h1>
       </div>

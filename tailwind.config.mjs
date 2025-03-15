@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      textShadow: {
+        sm: "1px 1px 2px rgba(0, 0, 0, 0.2)",
+        md: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+        lg: "4px 4px 6px rgba(0, 0, 0, 0.5)",
+      },
+      fontFamily: {
+        dana: ["Dana Yad", "sans-serif"],
+        gveret: ["Gveret Levin", "sans-serif"],
+      },
       screens: {
         xs: "480px", // Add custom 'xs' breakpoint for small screens
       },
@@ -60,5 +69,14 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-shadow-sm": { textShadow: "0px 0px 4px rgba(253, 253, 253, 1)" },
+        ".text-shadow-md": { textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" },
+        ".text-shadow-lg": { textShadow: "4px 4px 6px rgba(0, 0, 0, 0.2)" },
+      });
+    },
+  ],
 };

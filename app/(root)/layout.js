@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex  flex-col">
       <Header />
       <main className="flex-1 ">{children}</main>
       <Footer />

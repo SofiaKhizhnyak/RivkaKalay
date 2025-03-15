@@ -31,7 +31,7 @@ function Gallery({ onClose }) {
   return (
     <div className="fixed inset-0 z-50 bg-[#000000b3] flex-center">
       <Carousel
-        className="w-11/12 max-w-full "
+        className="w-10/12 "
         opts={{
           align: "start",
           loop: true,

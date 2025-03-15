@@ -31,6 +31,68 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.blink {
+  animation: blink 4s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title-word {
+  display: inline-block;
+  animation: color-animation 0.15s normal;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes color-animation {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    color: #ecb247a1;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-heartbeat {
+  animation: heartbeat 3s infinite;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -94,4 +156,18 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: "Dana Yad";
+  src: url("/fonts/DanaYadAlefAlefAlefNormal.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gveret Levin";
+  src: url("/fonts/GveretLevinAlefAlefAlefRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
