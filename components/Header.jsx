@@ -44,7 +44,7 @@ const Header = () => {
         <motion.div
           initial={{ opacity: 0.9, scale: 1.2, y: 50, x: "-50%" }}
           animate={{ opacity: 0, scale: 0.3, y: -30, x: "-50%" }}
-          transition={{ duration: 3.1, ease: "easeOut" }}
+          transition={{ duration: 4, ease: "easeOut" }}
           className="absolute top-[44%] left-1/2 
              -translate-x-1/2 -translate-y-1/2 
              text-center text-[#c9b8c9] font-extrabold 
@@ -55,7 +55,7 @@ const Header = () => {
         <motion.div
           initial={{ opacity: 0.9, scale: 1.2, y: 50, x: "-50%" }}
           animate={{ opacity: 0, scale: 0.3, y: -30, x: "-50%" }}
-          transition={{ duration: 3, ease: "easeOut" }}
+          transition={{ duration: 4, ease: "easeOut" }}
           className="absolute top-1/2 left-1/2 
              -translate-x-1/2 -translate-y-1/2
              text-center text-[#b4abb4] font-gveret tracking-wide
