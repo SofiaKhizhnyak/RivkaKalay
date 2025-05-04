@@ -37,7 +37,7 @@ const Header = () => {
         initial={{ height: "100vh", width: "100vw" }}
         animate={{ height: "auto", width: "100%" }}
         transition={{ duration: 3, ease: "easeOut" }}
-        className="relative border-b bg-[url('/images/bg_1.jpg')] bg-cover"
+        className="relative border-b bg-[url('/images/bg_1.jpg')] bg-cover "
       >
         <div className="absolute inset-0 bg-gradient-to-l from-[#f7f3f7] via-[#fcfcfc] to-transparent opacity-90"></div>
 

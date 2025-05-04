@@ -10,14 +10,14 @@ function About() {
 
       <div className="relative px-4 py-20 sm:px-6 lg:flex lg:items-center lg:px-8">
         <div className=" ltr:text-left rtl:text-right">
-          <h1 className="sm:text-[76px] text-[68px] font-gveret text-[#ddd4dd] mr-4 tracking-wider">
+          <h1 className="sm:text-[76px] text-[63px] font-gveret text-[#ddd4dd] mr-4 tracking-wider">
             רבקה קליי
           </h1>
           <h1 className="font-extrabold text-5xl text-[#5a515a] -translate-x-8 -translate-y-10 tracking-wider opacity-80">
             רבקה קליי
           </h1>
 
-          <div className="py-2 px-4 bg-white/30 rounded-2xl max-w-md sm:max-w-lg lg:max-w-[37rem] font-gveret tracking-wider">
+          <div className="backdrop-blur-sm py-2 px-4 bg-white/30 rounded-2xl max-w-md sm:max-w-lg lg:max-w-[37rem] font-gveret tracking-wider">
             <p className="text-shadow-sm text-[17px] sm:text-lg/relaxed md:text-xl/relaxed text-[#504950]">
               קוסמטיקאית פרא-רפואית בכירה עם למעלה מ-15 שנות ניסיון.
             </p>

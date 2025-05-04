@@ -12,7 +12,7 @@ function TreatmentCard({ name, desc, img }) {
         height={1000}
         width={1500}
         alt={name}
-        className=" rounded-lg"
+        className="rounded-lg"
         objectFit="cover"
         objectPosition="center"
       />

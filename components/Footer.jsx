@@ -89,7 +89,11 @@ function Footer() {
           </span>{" "}
           Sofia Khizhnyak
         </p>
-        <Link href="https://www.linkedin.com/in/sofiakhizhnyak/">
+        <Link
+          href="https://www.linkedin.com/in/sofia-khiznyak/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin
             size={18}
             className="hover:text-[#8f73a7] hover:scale-110"
